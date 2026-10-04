@@ -250,8 +250,3 @@ Jawaban lengkap ada pada laporan praktikum.
 | Order Service selalu menjawab "Book Service sedang down!" | Pastikan `book_service.py` sedang berjalan di port 5001. |
 | Perintah `curl` dengan JSON gagal di Linux atau macOS | Tulis JSON tanpa backslash: `-d '{"book_id":1}'`, dan pakai `curl` biasa. |
 | Perintah `python` tidak dikenali | Coba `python3`, atau pastikan Python sudah masuk ke PATH. |
-
-## Catatan
-
-- Data disimpan di memori (variabel Python), jadi akan kembali ke kondisi awal setiap server dijalankan ulang.
-- Praktikum ini tidak mengukur latensi dan tidak menguji penskalaan. Pembahasan keduanya pada laporan hanya bersifat konsep.
